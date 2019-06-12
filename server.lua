@@ -1,3 +1,7 @@
+--[[
+    By Solzinho
+]]
+
 AddEventHandler('chatMessage', function(source, name, msg)
 	sm = stringsplit(msg, " ");
 	if sm[1] == "/nomeaqui" then
